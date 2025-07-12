@@ -21,6 +21,5 @@ alias cd="z"
 # wallpaper management and kitty colours ig
 wallpaper_path=$(osascript -e 'tell application "System Events" to get picture of desktop 1')
 
-echo "$wallpaper_path"
 
 wallust run -u $wallpaper_path
